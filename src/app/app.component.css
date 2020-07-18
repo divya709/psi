@@ -1,0 +1,152 @@
+.header
+{
+ width : 100%;
+ background-image:linear-gradient(to right,lightblue,lightgreen);
+}
+
+.heading
+{
+ font-family : cambria;
+ font-size : 30px;
+ text-align : center;
+ font-weight : bold;
+ color : black;
+ top:2%;
+}
+.subheading
+{
+ font-family : cambria;
+ font-size : 25px;
+ font-weight : bold;
+ color : #ff1744;
+ padding : 15px;
+}
+.bodysec
+{
+ width : 85%;
+ border-radius : 5%;
+ height : 96%;
+ background : white;
+ margin : auto;
+ margin-bottom : 5%;
+}
+.grad
+{
+ background-color: lightgreen;         
+ background-image:linear-gradient(to right,lightblue,lightgreen);
+}
+
+.btn{
+ background-color: lightgreen;         
+ color:white;         
+ padding: 10px;
+ font-size: 15px;
+ font-weight : bold;
+ border: none;
+}
+
+.btn btn-warning{
+          float:center
+}
+
+.webheading{
+          color:white;
+          font-size: 30px;
+}
+
+.footer{
+  float:center;
+  position: relative;
+  margin-left:30%;
+  color: black;
+}
+
+.homebg{
+  background-image:url(https://i.pinimg.com/originals/f3/d4/3d/f3d43d63b97626994594c5860eaebeb5.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+.home{
+  width:100%;
+  height:100%;
+}
+
+.joinbtn{
+  float:center;
+  padding:2%;
+  margin:45%;
+  position:center;
+}
+
+.sendbtn{
+  position: relative;
+  background-color:black;
+  border-radius: 5%;
+  margin-left:45%;
+  color:white;
+  font:bold;
+  padding:2%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:black;
+  color: white;
+  font:bold;
+  padding:2%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.bg{
+  position: relative;
+  width:100%;
+}
+
+.bg img{
+  width:100%;
+  height:550px;
+}
+
+
+.bg .container2{
+  position: absolute;
+  top: 5%;
+  left:5%;
+  height:auto;
+  border: none;
+  border-radius: 5px;
+  width:90%;
+}
+
+.container2 .heading{
+  position:aboslute;
+  font-family : cambria;
+ font-size : 30px;
+ text-align : center;
+ font-weight : bold;
+ color : black;
+}
